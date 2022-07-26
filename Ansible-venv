@@ -12,3 +12,6 @@ pip install ansible
 #  2. ansible.cfg
 #  3. ~/.ansible.cfg
 #  4. /etc/ansible/ansible.cfg
+
+# ansibe version
+ansible --version
