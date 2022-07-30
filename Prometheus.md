@@ -1,6 +1,7 @@
 # Prometheus Installation
 ```
 #PUT latest version of Prometheus in VERSION variable
+
 cd /opt
 export RELEASE="2.37.0"
 wget https://github.com/prometheus/prometheus/releases/download/v${RELEASE}/prometheus-${RELEASE}.linux-amd64.tar.gz
@@ -79,11 +80,7 @@ scrape_configs:
 
             - 127.0.0.1:9100
 
-
-
-
 "  | tee   /etc/prometheus/prometheus.yml > /dev/null
-
 
 
 
