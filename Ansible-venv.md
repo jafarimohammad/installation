@@ -1,4 +1,4 @@
-# installing Ansible in virtualenv python
+# install Ansible in virtualenv python
 ```
 yum install python-vertualenv
 mkdir ansible
