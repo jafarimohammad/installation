@@ -1,5 +1,5 @@
-# installing Zabbix from source code on ubuntu
-
+# install Zabbix from source code on ubuntu
+```
 apt update
 wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-1+ubuntu20.04_all.deb
 dpkg -i zabbix-release_6.0-1+ubuntu20.04_all.deb
@@ -59,3 +59,4 @@ zcat /usr/share/doc/zabbix-sql-scripts/mysql/server.sql.gz | mysql -uzabbix -p z
 systemctl restart zabbix-server 
 systemctl restart nginx
 systemctl restart zabbix-agent2
+```
