@@ -9,7 +9,7 @@ pip install ansible
 ```
 # config file with priority:
 1. $ANSIBLE_CONFIG
-2. ansible.cfg
+2. ansible.cfg ( current directory )
 3. ~/.ansible.cfg
 4. /etc/ansible/ansible.cfg
 
