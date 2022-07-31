@@ -1,5 +1,5 @@
-# installing grafana in ubuntu
-
+# install grafana in ubuntu
+```
 sudo apt-get install -y apt-transport-https
 sudo apt-get install -y software-properties-common wget
 wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
@@ -15,3 +15,4 @@ plugins install zabbix
 
 #Zabbix Plugin Installation Way 2 (need proxy)
 grafana-cli plugins install alexanderzobnin-zabbix-app
+```
