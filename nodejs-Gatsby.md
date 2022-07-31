@@ -1,4 +1,5 @@
 # installing nodejs in Centos
+```
 wget https://rpm.nodesource.com/setup_14.x
 chmod +x setup_14.x
 ./setup_14.x
@@ -23,3 +24,4 @@ gatsby new gatsby_project
 # build project
 cd gatsby_project
 gatsby build
+```
